@@ -9,6 +9,7 @@ flex: 1;
  margin: 20px;
 
  .widgetSmTitle{
+  text-align: center;
   font-size: 32px;
   font-weight: 600;
  }
@@ -49,6 +50,11 @@ flex: 1;
  padding: 7px 10px;
  background-color: ${scOption.mainBg};
  cursor: pointer;
+}
+
+.widgetSmIcon{
+ font-size: 16px;
+ margin-left: 5px;
 }
 
 `;

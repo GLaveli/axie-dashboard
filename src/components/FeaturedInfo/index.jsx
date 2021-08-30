@@ -6,43 +6,43 @@ const FeaturedInfo = () => {
   <Featured>
 
    <div className="featuredItem">
-    <span className="featuredTitle">Revenue</span>
+    <span className="featuredTitle">Average of SLP per month</span>
     <div className="featuredMoneyContainer">
      <span className="featuredMoney">
-      $2.415
+      4.415
      </span>
      <span className="featuredMoneyRate">
-      -11 <MdArrowDownward className="featuredIcon negative" />
+      -11% <MdArrowDownward className="featuredIcon negative" />
      </span>
     </div>
-    <span className="featuredSub">Compared to las mounth</span>
+    <span className="featuredSub">Compared to last month</span>
    </div>
 
    <div className="featuredItem">
-    <span className="featuredTitle">Revenue</span>
+    <span className="featuredTitle">Average of SLP per day</span>
     <div className="featuredMoneyContainer">
      <span className="featuredMoney">
-      $2.415
+      103
      </span>
      <span className="featuredMoneyRate">
-      -11 <MdArrowDownward className="featuredIcon" />
+      +11% <MdArrowUpward className="featuredIcon" />
      </span>
     </div>
-    <span className="featuredSub">Compared to las mounth</span>
+    <span className="featuredSub">Compared to last day</span>
    </div>
 
 
    <div className="featuredItem">
-    <span className="featuredTitle">Revenue</span>
+    <span className="featuredTitle">Total withdrawal</span>
     <div className="featuredMoneyContainer">
      <span className="featuredMoney">
-      $2.415
+      R$: 2.487,45
      </span>
      <span className="featuredMoneyRate">
-      -11 <MdArrowDownward className="featuredIcon" />
+      +3% <MdArrowUpward className="featuredIcon" />
      </span>
     </div>
-    <span className="featuredSub">Compared to las mounth</span>
+    <span className="featuredSub">Compared to last month</span>
    </div>
 
 

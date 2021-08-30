@@ -4,7 +4,7 @@ import { WidgetLgContainer } from "./styles"
 export const WidgetLg = () => {
  return (
   <WidgetLgContainer>
-   Large
+   <h3 className="widgetLgTitle">Slaves</h3>
   </WidgetLgContainer>
  )
 }

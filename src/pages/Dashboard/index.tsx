@@ -3,7 +3,7 @@ import Topbar from '../../components/Topbar';
 
 import { Sidebar } from '../../components/Sidebar';
 
-import Home from '../Home/inedex';
+import DashboardHome from '../DashboardHome/inedex';
 
 const Dashboard: React.FC = () => {
  return (
@@ -11,7 +11,7 @@ const Dashboard: React.FC = () => {
    <Topbar />
    <div className="sidebarContainer">
     <Sidebar />
-    <Home />
+    <DashboardHome />
    </div>
   </div>
  )
