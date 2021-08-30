@@ -35,8 +35,20 @@ flex: 1;
 
  .widgetSmUsernameContainer{
  display: flex;
- flex-direction: column;
+ flex-direction: row;
+ align-items: center;
  }
+
+.widgetSmUsernameCode{
+ margin-right: 5px;
+ padding: 5px 7px;
+ border: none;
+ border-radius: 10px;
+ font-size: 14px;
+ font-weight: 700;
+ background-color: ${scOption.mainColorWithGreen};
+ color: ${scOption.mainColorGreen};
+}
 
 .widgetSmUsernameText{
  font-weight: 600;
